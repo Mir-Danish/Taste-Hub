@@ -1,0 +1,1 @@
+This is the Advanced Version of Taste Hub with additional functionalities

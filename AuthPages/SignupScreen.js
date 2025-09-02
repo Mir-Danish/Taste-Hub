@@ -4,7 +4,7 @@ import React from 'react'
 const SignupScreen = () => {
   return (
     <View>
-      <Text>SignupScreen Here you can signup</Text>
+      <Text>SignupScreen Here is  you can signup</Text>
     </View>
   )
 }

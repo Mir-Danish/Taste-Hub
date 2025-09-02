@@ -4,8 +4,8 @@ import React from 'react'
 const StarterScreen = () => {
   return (
     <View>
-      <Text>StarterScreen</Text>
-    </View>
+      <Text>StarterScreen is here this is the screen</Text>
+    </View> 
   )
 }
 

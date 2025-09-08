@@ -4,7 +4,7 @@ import React from 'react'
 const StarterScreen = () => {
   return (
     <View>
-      <Text>StarterScreen is the tdd starter page d here this is the screen</Text>
+      <Text>StarterScrehshsdggsdjken is the tdd starter page d here this is the screen</Text>
     </View> 
   )
 }

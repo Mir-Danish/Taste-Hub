@@ -4,9 +4,9 @@ import React from 'react'
 const LoginScreen = () => {
   return (
     <View>
-      <Text>LogindvkldkllkdScreen</Text>
+      <Text>LoginScreen</Text>
     </View>
   )
 }
 
-export default LoginScreen
+export default LoginScreen;

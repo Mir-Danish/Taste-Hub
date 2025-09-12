@@ -9,14 +9,13 @@ import { useState } from "react";
 const Stack = createNativeStackNavigator();
 const LoginNavigator = () =>{
     return(
-    <Stack.Navigator>
+    <Stack.Navigator initialRouteName="LoginPage">
         <Stack.Screen name="SplashScreen" component={SplashScreen} options={{headerShown:false}}/>
         <Stack.Screen name="LoginPage" component={LoginScreen} options={{headerShown:false}} />
         <Stack.Screen name="SignupPage" component={SignupScreen} options={{headerShown:false}} />
     </Stack.Navigator>
     )
 }
-
 
 const Pages = createNativeStackNavigator();
 const LoggedNavigator = ()=>{
@@ -30,7 +29,7 @@ const LoggedNavigator = ()=>{
 }
 
 const AppNavigation = () => {
-    const [loggedIn,setLoggedIn] = useState(true)
+    const [loggedIn,setLoggedIn] = useState(false)
     return(
         <NavigationContainer>
             {

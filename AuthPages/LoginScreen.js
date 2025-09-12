@@ -16,7 +16,6 @@ const LoginScreen = () => {
         style={{height:45,marginTop:10, borderWidth:1,borderRadius:15,padding:5}}/>
       </View>
 
-
        <View style={{marginTop:45,marginHorizontal:20,}}>
         <Text style={{fontFamily:"Inter"}}>Password</Text>
         <TextInput
